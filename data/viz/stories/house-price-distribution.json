@@ -1,0 +1,22 @@
+{
+  "id": "price_distribution",
+  "slug": "house-price-distribution",
+  "title": "House Price Distribution & Summary Statistics",
+  "description": "Understanding the distribution and basic statistics of house sale prices",
+  "domain": "housing",
+  "narrative": "This analysis examines the distribution of house sale prices in the dataset.\n\nKey Statistics:\n- Mean Price: $180,921\n- Median Price: $163,000\n- Standard Deviation: $79,443\n- Price Range: $34,900 - $755,000\n- 25th Percentile: $129,975\n- 75th Percentile: $214,000\n\nThe distribution shows that house prices are right-skewed, with most houses priced below the mean. The price distribution by overall quality reveals a clear positive relationship - higher quality houses command significantly higher prices.\n\nUnderstanding this distribution is crucial for predictive modeling, as it helps identify outliers and informs feature engineering decisions.",
+  "visualizations": [
+    {
+      "id": "price_distribution_histogram",
+      "title": "Sale Price Distribution",
+      "type": "plotly",
+      "description": "Histogram showing the distribution of house sale prices"
+    },
+    {
+      "id": "price_by_quality_box",
+      "title": "Price Distribution by Overall Quality",
+      "type": "plotly",
+      "description": "Box plots showing price distributions across different quality levels"
+    }
+  ]
+}

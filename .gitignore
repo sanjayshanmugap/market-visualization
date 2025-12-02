@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+.venv
+
+# Node
+node_modules/
+.next/
+out/
+build/
+dist/
+*.log
+.npm
+.eslintcache
+.yarn-integrity
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data (allow JSON files for deployment)
+data/viz/static/*.png
+data/viz/static/*.jpg
+data/viz/static/*.svg
+data/viz/static/*.mp4
+data/viz/data/*.csv
+# Allow JSON files - needed for deployment
+!data/viz/data/*.json
+!data/viz/stories/*.json
+# Allow public data files
+!src/ui/public/data/**/*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+Thumbs.db
+
+# Cache
+data/cache/

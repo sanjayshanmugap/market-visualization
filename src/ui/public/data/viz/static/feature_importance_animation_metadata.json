@@ -1,0 +1,17 @@
+{
+  "type": "manim_feature_importance",
+  "output_name": "feature_importance_animation",
+  "num_features": 12,
+  "top_features": [
+    "OverallQual",
+    "GrLivArea",
+    "GarageCars",
+    "GarageArea",
+    "TotalBsmtSF",
+    "1stFlrSF",
+    "FullBath",
+    "TotRmsAbvGrd",
+    "YearBuilt",
+    "YearRemodAdd"
+  ]
+}

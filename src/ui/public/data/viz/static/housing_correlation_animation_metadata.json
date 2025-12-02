@@ -1,0 +1,39 @@
+{
+  "type": "manim_housing_correlation",
+  "output_name": "housing_correlation_animation",
+  "features": [
+    "LotFrontage",
+    "BsmtFinSF1",
+    "Fireplaces",
+    "MasVnrArea",
+    "GarageYrBlt",
+    "YearRemodAdd",
+    "YearBuilt",
+    "TotRmsAbvGrd",
+    "FullBath",
+    "1stFlrSF",
+    "TotalBsmtSF",
+    "GarageArea",
+    "GarageCars",
+    "GrLivArea",
+    "OverallQual"
+  ],
+  "correlations": [
+    0.35179909657067737,
+    0.3864198062421535,
+    0.46692883675152763,
+    0.47749304709571455,
+    0.4863616774878597,
+    0.5071009671113867,
+    0.5228973328794969,
+    0.5337231555820283,
+    0.5606637627484453,
+    0.6058521846919154,
+    0.613580551559194,
+    0.6234314389183621,
+    0.6404091972583521,
+    0.7086244776126518,
+    0.7909816005838054
+  ],
+  "num_features": 15
+}

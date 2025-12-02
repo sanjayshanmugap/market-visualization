@@ -1,0 +1,17 @@
+{
+  "type": "manim_neighborhood_comparison",
+  "output_name": "neighborhood_comparison_animation",
+  "num_neighborhoods": 12,
+  "top_neighborhoods": [
+    "NoRidge",
+    "NridgHt",
+    "StoneBr",
+    "Timber",
+    "Veenker",
+    "Somerst",
+    "ClearCr",
+    "Crawfor",
+    "CollgCr",
+    "Blmngtn"
+  ]
+}

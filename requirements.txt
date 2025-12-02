@@ -1,0 +1,56 @@
+# Data Visualization Portfolio - Python Dependencies
+
+# Data Processing & Storage
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=12.0.0
+
+# Web Framework & APIs
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+websockets>=11.0.0
+httpx>=0.24.0
+requests>=2.31.0
+
+# Visualization Libraries
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+bokeh>=3.2.0
+altair>=5.0.0
+kaleido>=0.2.1  # For static plotly exports
+
+# Geospatial
+folium>=0.14.0
+
+# Network Analysis
+networkx>=3.0
+
+# Financial Data
+yfinance>=0.2.0
+pandas-datareader>=0.10.0
+
+# Data Sources
+openpyxl>=3.1.0  # For Excel files
+xlrd>=2.0.1  # For older Excel files
+
+# Configuration
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Development & Utilities
+jupyter>=1.0.0
+ipykernel>=6.24.0
+tqdm>=4.65.0
+click>=8.1.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Mathematical Animations
+manim>=0.17.0
+

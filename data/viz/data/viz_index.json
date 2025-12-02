@@ -1,0 +1,200 @@
+[
+  {
+    "id": "price_distribution_histogram",
+    "title": "Sale Price Distribution",
+    "description": "Understanding the distribution and basic statistics of house sale prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "house-price-distribution"
+  },
+  {
+    "id": "price_by_quality_box",
+    "title": "Price Distribution by Overall Quality",
+    "description": "Understanding the distribution and basic statistics of house sale prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "house-price-distribution"
+  },
+  {
+    "id": "feature_correlation_heatmap",
+    "title": "Feature Correlation Heatmap",
+    "description": "Identifying which features most strongly correlate with house prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "feature-relationships-correlations"
+  },
+  {
+    "id": "feature_importance_ranking",
+    "title": "Feature Importance Ranking",
+    "description": "Identifying which features most strongly correlate with house prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "feature-relationships-correlations"
+  },
+  {
+    "id": "scatter_overallqual_price",
+    "title": "OverallQual vs Sale Price",
+    "description": "Identifying which features most strongly correlate with house prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "feature-relationships-correlations"
+  },
+  {
+    "id": "neighborhood_avg_price",
+    "title": "Average Price by Neighborhood",
+    "description": "Analyzing how different neighborhoods affect house sale prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "neighborhood-price-analysis"
+  },
+  {
+    "id": "neighborhood_price_distribution",
+    "title": "Price Distribution by Neighborhood",
+    "description": "Analyzing how different neighborhoods affect house sale prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "neighborhood-price-analysis"
+  },
+  {
+    "id": "neighborhood_counts",
+    "title": "House Count by Neighborhood",
+    "description": "Analyzing how different neighborhoods affect house sale prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "neighborhood-price-analysis"
+  },
+  {
+    "id": "price_by_year_built",
+    "title": "Price Trends by Year Built",
+    "description": "How construction year, sale year, and remodeling affect prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "temporal-price-trends"
+  },
+  {
+    "id": "price_by_year_sold",
+    "title": "Price Trends by Year Sold",
+    "description": "How construction year, sale year, and remodeling affect prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "temporal-price-trends"
+  },
+  {
+    "id": "remodel_impact",
+    "title": "Remodeling Impact on Price",
+    "description": "How construction year, sale year, and remodeling affect prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "temporal-price-trends"
+  },
+  {
+    "id": "categorical_overallqual_box",
+    "title": "Price Distribution by OverallQual",
+    "description": "How categorical features like quality, style, and type influence house prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "categorical-feature-impact"
+  },
+  {
+    "id": "categorical_overallcond_box",
+    "title": "Price Distribution by OverallCond",
+    "description": "How categorical features like quality, style, and type influence house prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "categorical-feature-impact"
+  },
+  {
+    "id": "categorical_housestyle_box",
+    "title": "Price Distribution by HouseStyle",
+    "description": "How categorical features like quality, style, and type influence house prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "categorical-feature-impact"
+  },
+  {
+    "id": "categorical_bldgtype_box",
+    "title": "Price Distribution by BldgType",
+    "description": "How categorical features like quality, style, and type influence house prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "categorical-feature-impact"
+  },
+  {
+    "id": "categorical_garagetype_box",
+    "title": "Price Distribution by GarageType",
+    "description": "How categorical features like quality, style, and type influence house prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "categorical-feature-impact"
+  },
+  {
+    "id": "categorical_foundation_box",
+    "title": "Price Distribution by Foundation",
+    "description": "How categorical features like quality, style, and type influence house prices",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "categorical-feature-impact"
+  },
+  {
+    "id": "livarea_quality_scatter",
+    "title": "Living Area vs Price by Quality",
+    "description": "Relationship between house size, quality, and sale price",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "living-space-quality-analysis"
+  },
+  {
+    "id": "basement_area_scatter",
+    "title": "Basement Area vs Sale Price",
+    "description": "Relationship between house size, quality, and sale price",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "living-space-quality-analysis"
+  },
+  {
+    "id": "price_by_rooms",
+    "title": "Price by Room Count",
+    "description": "Relationship between house size, quality, and sale price",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "living-space-quality-analysis"
+  },
+  {
+    "id": "missing_data_percentage",
+    "title": "Missing Data by Feature",
+    "description": "Understanding data completeness and missing value patterns",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "missing-data-patterns"
+  },
+  {
+    "id": "missing_data_heatmap",
+    "title": "Missing Data Pattern",
+    "description": "Understanding data completeness and missing value patterns",
+    "domain": "housing",
+    "tool": "plotly",
+    "type": "plotly",
+    "slug": "missing-data-patterns"
+  }
+]

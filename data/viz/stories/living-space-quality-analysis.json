@@ -1,0 +1,28 @@
+{
+  "id": "living_space",
+  "slug": "living-space-quality-analysis",
+  "title": "Living Space & Quality Analysis",
+  "description": "Relationship between house size, quality, and sale price",
+  "domain": "housing",
+  "narrative": "This analysis explores how living space and quality interact to determine house prices.\n\nKey Relationships:\n- Larger living areas generally command higher prices, but quality matters more\n- The relationship between size and price is non-linear - diminishing returns at larger sizes\n- Basement area adds value, especially when finished\n- Room count shows a positive relationship with price up to a point\n\nKey Insights:\n- Quality amplifies the value of living space - a small high-quality house can be worth more than a large low-quality one\n- There are optimal size ranges that maximize value per square foot\n- Outliers in living area may indicate data quality issues or special properties\n- Feature interactions between size and quality are important for prediction\n\nUnderstanding these relationships helps create better features for predictive modeling, such as:\n- Size per quality ratios\n- Optimal size indicators\n- Quality-adjusted size metrics",
+  "visualizations": [
+    {
+      "id": "livarea_quality_scatter",
+      "title": "Living Area vs Price by Quality",
+      "type": "plotly",
+      "description": "Scatter plot showing living area vs price, colored by overall quality"
+    },
+    {
+      "id": "basement_area_scatter",
+      "title": "Basement Area vs Sale Price",
+      "type": "plotly",
+      "description": "Scatter plot showing relationship between basement area and price"
+    },
+    {
+      "id": "price_by_rooms",
+      "title": "Price by Room Count",
+      "type": "plotly",
+      "description": "Bar chart showing average price by number of rooms"
+    }
+  ]
+}

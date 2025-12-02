@@ -1,0 +1,28 @@
+{
+  "id": "neighborhood_analysis",
+  "slug": "neighborhood-price-analysis",
+  "title": "Neighborhood Impact on House Prices",
+  "description": "Analyzing how different neighborhoods affect house sale prices",
+  "domain": "housing",
+  "narrative": "This analysis examines the impact of neighborhood location on house sale prices.\n\nPremium Neighborhoods (Top 5 by Average Price):\n- NoRidge: $335,295\n- NridgHt: $316,271\n- StoneBr: $310,499\n- Timber: $242,247\n- Veenker: $238,773\n\nAffordable Neighborhoods (Bottom 5 by Average Price):\n- Edwards: $128,220\n- BrkSide: $124,834\n- BrDale: $104,494\n- IDOTRR: $100,124\n- MeadowV: $98,576\n\nKey Insights:\n- Location is one of the strongest predictors of house price\n- Premium neighborhoods can command prices 2-3x higher than average\n- Price distributions vary significantly between neighborhoods\n- Some neighborhoods have more price variability than others\n\nUnderstanding neighborhood effects is crucial for accurate price prediction, as location often outweighs many physical features of the house itself.",
+  "visualizations": [
+    {
+      "id": "neighborhood_avg_price",
+      "title": "Average Price by Neighborhood",
+      "type": "plotly",
+      "description": "Bar chart showing average sale price for each neighborhood"
+    },
+    {
+      "id": "neighborhood_price_distribution",
+      "title": "Price Distribution by Neighborhood",
+      "type": "plotly",
+      "description": "Box plots showing price distributions for top neighborhoods"
+    },
+    {
+      "id": "neighborhood_counts",
+      "title": "House Count by Neighborhood",
+      "type": "plotly",
+      "description": "Number of houses in each neighborhood"
+    }
+  ]
+}

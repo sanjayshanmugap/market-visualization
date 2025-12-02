@@ -1,0 +1,46 @@
+{
+  "id": "categorical_impact",
+  "slug": "categorical-feature-impact",
+  "title": "Categorical Feature Impact on Prices",
+  "description": "How categorical features like quality, style, and type influence house prices",
+  "domain": "housing",
+  "narrative": "This analysis examines how categorical features influence house sale prices.\n\nKey Categorical Features:\n- Overall Quality: Strongest predictor - quality ratings directly correlate with price\n- Overall Condition: Houses in better condition command higher prices\n- House Style: 2-story and newer styles tend to be more valuable\n- Building Type: Single-family detached homes are typically most valuable\n- Garage Type: Attached and built-in garages add more value\n- Foundation: Poured concrete foundations are associated with higher prices\n\nKey Insights:\n- Quality and condition ratings show clear step-wise price increases\n- Some categorical features may need encoding (one-hot, ordinal, or target encoding)\n- Feature interactions between categoricals can be important\n- Missing values in categoricals often represent \"None\" (e.g., no garage, no basement)\n\nUnderstanding these relationships helps in feature engineering and model selection for price prediction.",
+  "visualizations": [
+    {
+      "id": "categorical_overallqual_box",
+      "title": "Price Distribution by OverallQual",
+      "type": "plotly",
+      "description": "Box plots showing price distributions across OverallQual categories"
+    },
+    {
+      "id": "categorical_overallcond_box",
+      "title": "Price Distribution by OverallCond",
+      "type": "plotly",
+      "description": "Box plots showing price distributions across OverallCond categories"
+    },
+    {
+      "id": "categorical_housestyle_box",
+      "title": "Price Distribution by HouseStyle",
+      "type": "plotly",
+      "description": "Box plots showing price distributions across HouseStyle categories"
+    },
+    {
+      "id": "categorical_bldgtype_box",
+      "title": "Price Distribution by BldgType",
+      "type": "plotly",
+      "description": "Box plots showing price distributions across BldgType categories"
+    },
+    {
+      "id": "categorical_garagetype_box",
+      "title": "Price Distribution by GarageType",
+      "type": "plotly",
+      "description": "Box plots showing price distributions across GarageType categories"
+    },
+    {
+      "id": "categorical_foundation_box",
+      "title": "Price Distribution by Foundation",
+      "type": "plotly",
+      "description": "Box plots showing price distributions across Foundation categories"
+    }
+  ]
+}

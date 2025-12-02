@@ -1,0 +1,28 @@
+{
+  "id": "temporal_trends",
+  "slug": "temporal-price-trends",
+  "title": "Temporal Trends in House Prices",
+  "description": "How construction year, sale year, and remodeling affect prices",
+  "domain": "housing",
+  "narrative": "This analysis explores how time-related factors influence house sale prices.\n\nKey Findings:\n- Older houses (pre-1950) may have lower base prices but can be valuable if well-maintained\n- Newer construction (2000+) generally commands premium prices\n- Remodeled houses show significant price premiums over non-remodeled houses\n- Sale year trends may reflect market conditions during the sale period\n\nUnderstanding temporal patterns helps account for:\n- Age-related depreciation\n- Market timing effects\n- Value added through remodeling\n- Historical appreciation trends\n\nThese insights inform feature engineering for predictive models, such as creating age features and remodeling indicators.",
+  "visualizations": [
+    {
+      "id": "price_by_year_built",
+      "title": "Price Trends by Year Built",
+      "type": "plotly",
+      "description": "Line chart showing how prices vary by construction year"
+    },
+    {
+      "id": "price_by_year_sold",
+      "title": "Price Trends by Year Sold",
+      "type": "plotly",
+      "description": "Bar chart showing average prices by sale year"
+    },
+    {
+      "id": "remodel_impact",
+      "title": "Remodeling Impact on Price",
+      "type": "plotly",
+      "description": "Comparison of prices for remodeled vs non-remodeled houses"
+    }
+  ]
+}

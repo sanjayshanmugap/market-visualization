@@ -1,0 +1,11 @@
+{
+  "type": "manim_price_evolution",
+  "output_name": "price_evolution_animation",
+  "year_col": "YearBuilt",
+  "price_col": "mean",
+  "data_points": 112,
+  "year_range": [
+    1872,
+    2010
+  ]
+}

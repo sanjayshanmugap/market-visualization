@@ -1,0 +1,22 @@
+{
+  "id": "missing_data",
+  "slug": "missing-data-patterns",
+  "title": "Missing Data Patterns",
+  "description": "Understanding data completeness and missing value patterns",
+  "domain": "housing",
+  "narrative": "This analysis examines missing data patterns in the dataset.\n\nFeatures with Most Missing Data:\n- PoolQC: 99.5%\n- MiscFeature: 96.3%\n- Alley: 93.8%\n- Fence: 80.8%\n- MasVnrType: 59.7%\n\nKey Insights:\n- Many missing values represent \"None\" or \"Not Applicable\" (e.g., no pool, no garage, no basement)\n- Some features have systematic missingness that should be encoded as a separate category\n- Missing data patterns can reveal feature relationships (e.g., if no garage, GarageArea is missing)\n- Understanding missingness is crucial for proper imputation or encoding strategies\n\nHandling Missing Data:\n- Categorical: Encode \"NA\" as a category (e.g., \"No Garage\", \"No Pool\")\n- Numerical: May need imputation or indicator variables\n- Some missingness may be informative (e.g., missing basement = no basement)\n\nProper handling of missing data is essential for accurate price prediction.",
+  "visualizations": [
+    {
+      "id": "missing_data_percentage",
+      "title": "Missing Data by Feature",
+      "type": "plotly",
+      "description": "Bar chart showing percentage of missing data for each feature"
+    },
+    {
+      "id": "missing_data_heatmap",
+      "title": "Missing Data Pattern",
+      "type": "plotly",
+      "description": "Heatmap showing missing data patterns across features"
+    }
+  ]
+}

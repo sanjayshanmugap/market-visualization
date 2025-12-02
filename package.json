@@ -1,0 +1,17 @@
+{
+  "name": "data-visualization-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Data Visualization Portfolio - A comprehensive showcase of Python visualization skills",
+  "scripts": {
+    "dev": "cd src/ui && npm run dev",
+    "build": "cd src/ui && npm run build",
+    "start": "cd src/ui && npm run start",
+    "api": "uvicorn src.api.main:app --reload --port 8000",
+    "generate-stories": "python scripts/generate_stories.py"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+

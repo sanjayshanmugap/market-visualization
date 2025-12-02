@@ -1,0 +1,28 @@
+{
+  "id": "feature_relationships",
+  "slug": "feature-relationships-correlations",
+  "title": "Feature Relationships & Correlations with Sale Price",
+  "description": "Identifying which features most strongly correlate with house prices",
+  "domain": "housing",
+  "narrative": "This analysis explores which features are most strongly correlated with house sale prices.\n\nTop Correlated Features:\n- OverallQual: 0.791\n- GrLivArea: 0.709\n- GarageCars: 0.640\n- GarageArea: 0.623\n- TotalBsmtSF: 0.614\n\nKey Insights:\n- OverallQual shows the strongest correlation with sale price\n- Living area and quality metrics are among the most important predictors\n- Understanding these relationships helps prioritize features for predictive modeling\n- Some features may require transformation (e.g., log transformation) to improve linear relationships\n\nThe correlation heatmap reveals both positive and negative relationships. Features like overall quality, living area, and garage size show strong positive correlations, while features like year built (older houses) may show different patterns.\n\nThese insights guide feature engineering and model selection for price prediction.",
+  "visualizations": [
+    {
+      "id": "feature_correlation_heatmap",
+      "title": "Feature Correlation Heatmap",
+      "type": "plotly",
+      "description": "Heatmap showing correlations between top features and sale price"
+    },
+    {
+      "id": "feature_importance_ranking",
+      "title": "Feature Importance Ranking",
+      "type": "plotly",
+      "description": "Bar chart ranking features by correlation strength with sale price"
+    },
+    {
+      "id": "scatter_overallqual_price",
+      "title": "OverallQual vs Sale Price",
+      "type": "plotly",
+      "description": "Scatter plot showing relationship between OverallQual and sale price"
+    }
+  ]
+}
