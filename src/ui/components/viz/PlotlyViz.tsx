@@ -5,7 +5,9 @@ import dynamic from 'next/dynamic'
 import { Card, CardContent } from '../ui/card'
 
 // Dynamically import Plotly to avoid SSR issues
-const Plot = dynamic(() => import('react-plotly.js'), { ssr: false })
+const Plot = dynamic(() => import('react-plotly.js').then((mod) => mod.default), { 
+  ssr: false 
+}) as any
 
 interface PlotlyVizProps {
   vizId: string
