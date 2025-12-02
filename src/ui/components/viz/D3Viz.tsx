@@ -35,17 +35,27 @@ export function D3Viz({ vizId, type, data, className }: D3VizProps) {
 
     // Example: Simple line chart
     if (type === 'line' && data.points) {
-      const xExtent = d3.extent(data.points, (d: any) => d.x)
-      const yExtent = d3.extent(data.points, (d: any) => d.y)
+      const xExtent = d3.extent(data.points, (d: any) => d.x) as [number | undefined, number | undefined]
+      const yExtent = d3.extent(data.points, (d: any) => d.y) as [number | undefined, number | undefined]
+      
+      const xDomain: [number, number] = 
+        xExtent[0] !== undefined && xExtent[1] !== undefined 
+          ? [xExtent[0] as number, xExtent[1] as number] 
+          : [0, 1]
+      
+      const yDomain: [number, number] = 
+        yExtent[0] !== undefined && yExtent[1] !== undefined 
+          ? [yExtent[0] as number, yExtent[1] as number] 
+          : [0, 1]
       
       const xScale = d3
         .scaleLinear()
-        .domain(xExtent[0] !== undefined && xExtent[1] !== undefined ? [xExtent[0], xExtent[1]] : [0, 1])
+        .domain(xDomain)
         .range([0, chartWidth])
 
       const yScale = d3
         .scaleLinear()
-        .domain(yExtent[0] !== undefined && yExtent[1] !== undefined ? [yExtent[0], yExtent[1]] : [0, 1])
+        .domain(yDomain)
         .range([chartHeight, 0])
 
       const line = d3
