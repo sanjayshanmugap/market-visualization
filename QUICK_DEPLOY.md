@@ -38,7 +38,10 @@ git push -u origin main
 3. Click "Add New Project"
 4. Select `sanjayshanmugap/market-visualization`
 5. Vercel will auto-detect Next.js
-6. **Important:** Set Root Directory to `src/ui`
+6. **Important:** Set "Root Directory" to `src/ui`
+   - Click "Configure Project" before deploying
+   - Under "Root Directory", enter: `src/ui`
+   - Or set it later in: Settings → General → Root Directory
 7. Click "Deploy"
 
 **Option B: Via CLI**

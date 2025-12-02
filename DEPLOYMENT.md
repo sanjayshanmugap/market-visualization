@@ -110,11 +110,13 @@ The visualizations work without Manim. You can:
 2. Click "Add New Project"
 3. Import your GitHub repository: `sanjayshanmugap/market-visualization`
 4. Configure project settings:
-   - **Framework Preset:** Next.js
-   - **Root Directory:** `src/ui`
+   - **Framework Preset:** Next.js (auto-detected)
+   - **Root Directory:** Set to `src/ui` in project settings (Settings → General → Root Directory)
    - **Build Command:** `npm run build` (or leave default)
    - **Output Directory:** `.next` (or leave default)
    - **Install Command:** `npm install` (or leave default)
+   
+   **Note:** Root Directory must be set in Vercel dashboard, not in vercel.json
 
 5. **Environment Variables (if needed):**
    - Add any API keys or environment variables in the Vercel dashboard
@@ -155,20 +157,12 @@ These routes read from the `public/data/viz/` directory, which works perfectly w
 
 ### Step 5: Vercel Configuration
 
-Create `vercel.json` in the **project root** (not in src/ui):
+✅ **Already created:** `src/ui/vercel.json` with proper configuration.
 
-```json
-{
-  "buildCommand": "cd src/ui && npm run build",
-  "outputDirectory": "src/ui/.next",
-  "installCommand": "cd src/ui && npm install",
-  "framework": "nextjs"
-}
-```
-
-Or configure in Vercel dashboard:
-- Root Directory: `src/ui`
-- Framework: Next.js (auto-detected)
+When setting up in Vercel dashboard:
+- **Root Directory:** `src/ui` (set in project settings)
+- **Framework:** Next.js (auto-detected)
+- Vercel will use the `vercel.json` in the `src/ui` directory
 
 ### Step 6: Important Notes
 
